@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Upload and Display</title>
+    <link rel="stylesheet" href="csv.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload and Display CSV</h1>
+        <form id="csvForm">
+            <input type="file" id="csvFile" accept=".csv" />
+            <button type="button" onclick="readCSV()">Upload and Display</button>
+        </form>
+        <table id="csvTable">
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="csv.js"></script>
+</body>
+
+</html>
